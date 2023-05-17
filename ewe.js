@@ -34,37 +34,38 @@ var WHYRURUNIN = [
   "welcome.png",
   "welcome.png",
   "mayaEating.jpg",
-   "mayaEating.jpg",
-    "mayaEating.jpg",
-    "mayaEating.jpg",
-    "mayaEating.jpg",
-    "mayaEating.jpg",
-    "mayaChewing.jpg",
-    "mayaChewing.jpg",
-    "mayaChewing.jpg",
-    "mayaChewing.jpg",
-    "welcome.png",
-      "welcome.png",
-    "scaredMaya.jpg",
-    "scaredMaya.jpg",
-    "chagandaAppears.jpg",
-    "chaganda.jpg",
-    "scaredMaya.jpg",
-    "chaganda.jpg",
-    "chaganda.jpg",
-    "chaganda.jpg",
-    "scaredMaya.jpg",
-    "chaganda.jpg",
-    "chaganda.jpg",
-    "welcome.png",
-    "chaganda.jpg",
-     "welcome.png"
+  "mayaEating.jpg",
+  "mayaEating.jpg",
+  "mayaEating.jpg",
+  "mayaEating.jpg",
+  "mayaEating.jpg",
+  "mayaChewing.jpg",
+  "mayaChewing.jpg",
+  "mayaChewing.jpg",
+  "mayaChewing.jpg",
+  "welcome.png",
+  "welcome.png",
+  "scaredMaya.jpg",
+  "scaredMaya.jpg",
+  "chagandaAppears.jpg",
+  "chaganda.jpg",
+  "scaredMaya.jpg",
+  "chaganda.jpg",
+  "chaganda.jpg",
+  "chaganda.jpg",
+  "scaredMaya.jpg",
+  "chaganda.jpg",
+  "chaganda.jpg",
+  "welcome.png",
+  "chaganda.jpg",
+  "welcome.png"
 ];
+
 var i=0;
 function next(){
     document.getElementById("iangy").src=WHYRURUNIN[i];
     document.getElementById("charcoal").textContent ="Next";
-    document.getElementById("h").innerHTML="",
+    document.getElementById("h").innerHTML="";
     document.getElementById("oof").innerHTML= dia[i];
     i++;
 }
